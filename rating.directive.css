@@ -1,0 +1,21 @@
+.rating-container{
+    position: relative;
+    cursor: pointer;
+}
+
+.rating-container ul{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.rating-container ul li{
+    display: inline-block;
+}
+
+.rating-container ul li .mat-icon{
+    color: #FFC107;
+}
+
+.rating-container ul li .mat-icon.activeStar{
+    color: #FFC107 !important;
+}

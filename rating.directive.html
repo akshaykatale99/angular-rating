@@ -1,0 +1,9 @@
+<div class='rating-container' [id]='uniqueId'>
+    <ul>
+        <li (click)='starClick(stars, 1)' (mouseleave)='starLeave(stars)' (mouseenter)='starHover(stars, 1)'><mat-icon [id]="uniqueId+'_star1'" [ngClass]="uniqueId+'_rate-star'">star_border</mat-icon></li>
+        <li (click)='starClick(stars, 2)' (mouseleave)='starLeave(stars)' (mouseenter)='starHover(stars, 2)'><mat-icon [id]="uniqueId+'_star2'" [ngClass]="uniqueId+'_rate-star'">star_border</mat-icon></li>
+        <li (click)='starClick(stars, 3)' (mouseleave)='starLeave(stars)' (mouseenter)='starHover(stars, 3)'><mat-icon [id]="uniqueId+'_star3'" [ngClass]="uniqueId+'_rate-star'">star_border</mat-icon></li>
+        <li (click)='starClick(stars, 4)' (mouseleave)='starLeave(stars)' (mouseenter)='starHover(stars, 4)'><mat-icon [id]="uniqueId+'_star4'" [ngClass]="uniqueId+'_rate-star'">star_border</mat-icon></li>
+        <li (click)='starClick(stars, 5)' (mouseleave)='starLeave(stars)' (mouseenter)='starHover(stars, 5)'><mat-icon [id]="uniqueId+'_star5'" [ngClass]="uniqueId+'_rate-star'">star_border</mat-icon></li>
+    </ul>
+</div>
