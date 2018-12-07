@@ -1,4 +1,4 @@
-# angular-rating
+# angular star rating
 
 Angular Rating is for **angular4+**. It can be used for getting rate value by clicking on the stars.
 
