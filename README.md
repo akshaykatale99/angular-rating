@@ -33,7 +33,7 @@ Angular Rating is for **angular4+**. It can be used for getting rate value by cl
     }
     ```
     
-    You can also make multiple instance of rating stars by assigning unique id to the attribute.
+    **You can also make multiple instance of rating stars by assigning unique id to the attribute.**
     
     eg.
     ```
